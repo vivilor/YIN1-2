@@ -1,0 +1,30 @@
+$app-width: 960px;
+$app-height: 600px;
+
+$top-margin: 22px;
+$bottom-margin: 40px;
+$side-margin: 24px;
+
+$text-clr: #2d2d2d;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  &__column {
+    flex-direction: column;
+  }
+  &__fill {
+    flex: auto;
+  }
+}
+
+h1 {
+  font: 23pt/32pt "Conqueror Sans", sans-serif;
+  font-weight: 800;
+  color: $text-clr;
+}
