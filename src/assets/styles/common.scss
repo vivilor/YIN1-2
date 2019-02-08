@@ -1,0 +1,22 @@
+$app-width: 960px;
+$app-height: 600px;
+
+$top-margin: 22px;
+$bottom-margin: 40px;
+$side-margin: 24px;
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  &__column {
+    flex-direction: column;
+  }
+  &__fill {
+    flex: initial;
+  }
+}
