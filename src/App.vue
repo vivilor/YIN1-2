@@ -4,7 +4,7 @@
 </template>
 
 <style lang="scss">
+@import "assets/styles/font";
 #app {
-
 }
 </style>
