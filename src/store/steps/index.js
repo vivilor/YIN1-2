@@ -6,6 +6,10 @@ const state = {
   isRestarted: true
 }
 
+const getters = {
+  stepHeader: state => TextContent.steps[state.current] ? TextContent.steps[state.current].header : ''
+}
+
 const mutations = {
   SET_CURRENT_STEP (state, newStep) {
     state.current = newStep
@@ -42,6 +46,7 @@ const namespaced = true
 
 export default {
   state,
+  getters,
   actions,
   mutations,
   namespaced

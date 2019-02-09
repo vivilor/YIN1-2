@@ -14,6 +14,10 @@ body {
   align-items: center;
 }
 
+.no-overflow {
+  overflow: hidden
+}
+
 .flex {
   display: flex;
   &--column {
