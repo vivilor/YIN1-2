@@ -4,6 +4,11 @@
       <AppHeader/>
       <AppStepsBar/>
       <AppStepHeader/>
+      <InteractiveField>
+        <BoilerEquipment/>
+        <Stove/>
+        <Thermometer/>
+      </InteractiveField>
     </div>
   </div>
 </template>
@@ -12,9 +17,13 @@
 import AppHeader from '@/components/AppHeader'
 import AppStepsBar from '@/components/AppStepsBar'
 import AppStepHeader from '@/components/AppStepHeader'
+import InteractiveField from '@/components/InteractiveField'
+import BoilerEquipment from '@/components/BoilerEquipment'
+import Stove from '@/components/Stove'
+import Thermometer from '@/components/Thermometer'
 
 export default {
-  components: { AppStepHeader, AppStepsBar, AppHeader }
+  components: { Thermometer, Stove, BoilerEquipment, InteractiveField, AppStepHeader, AppStepsBar, AppHeader }
 }
 </script>
 
