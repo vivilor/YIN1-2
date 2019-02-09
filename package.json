@@ -9,6 +9,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "reset-css": "^4.0.1",
     "vue": "^2.5.22",
     "vuex": "^3.0.1"
   },

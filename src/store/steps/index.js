@@ -1,4 +1,4 @@
-import TextContent from 'assets/content'
+import TextContent from '@/assets/content'
 
 const state = {
   current: 0,
