@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import 'reset-css/reset.css'
+
 import App from './App.vue'
 import store from './store'
 

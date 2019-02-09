@@ -1,16 +1,29 @@
 <template>
   <div id="app" class="flex">
-    <div class="workfield flex flex__column flex__fill">
+    <div class="workfield flex flex--column flex--fill">
       <AppHeader/>
+      <AppStepsBar/>
+      <AppStepHeader/>
+      <InteractiveField>
+        <BoilerEquipment/>
+        <Stove/>
+        <Thermometer/>
+      </InteractiveField>
     </div>
   </div>
 </template>
 
 <script>
 import AppHeader from '@/components/AppHeader'
+import AppStepsBar from '@/components/AppStepsBar'
+import AppStepHeader from '@/components/AppStepHeader'
+import InteractiveField from '@/components/InteractiveField'
+import BoilerEquipment from '@/components/BoilerEquipment'
+import Stove from '@/components/Stove'
+import Thermometer from '@/components/Thermometer'
 
 export default {
-  components: { AppHeader }
+  components: { Thermometer, Stove, BoilerEquipment, InteractiveField, AppStepHeader, AppStepsBar, AppHeader }
 }
 </script>
 
