@@ -1,16 +1,18 @@
 <template>
   <div id="app" class="flex">
-    <div class="workfield flex flex__column flex__fill">
+    <div class="workfield flex flex--column flex--fill">
       <AppHeader/>
+      <AppStepsBar/>
     </div>
   </div>
 </template>
 
 <script>
 import AppHeader from '@/components/AppHeader'
+import AppStepsBar from '@/components/AppStepsBar'
 
 export default {
-  components: { AppHeader }
+  components: { AppStepsBar, AppHeader }
 }
 </script>
 

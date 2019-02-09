@@ -6,6 +6,7 @@ $bottom-margin: 40px;
 $side-margin: 24px;
 
 $text-clr: #2d2d2d;
+$main-clr: #00cdc5;
 
 body {
   display: flex;
@@ -15,11 +16,15 @@ body {
 
 .flex {
   display: flex;
-  &__column {
+  &--column {
     flex-direction: column;
   }
-  &__fill {
+  &--fill {
     flex: auto;
+  }
+  &--center-vh {
+    justify-content: center;
+    align-items: center;
   }
 }
 
