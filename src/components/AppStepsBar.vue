@@ -6,7 +6,7 @@
     :key="stepIndex">
     <img
       v-if="stepIndex < currentStep + 1"
-      src="../assets/img/Done.png">
+      src="../assets/img/done.png">
     <span
       v-else
       v-text="stepIndex"/>
