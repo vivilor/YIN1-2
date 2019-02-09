@@ -3,6 +3,7 @@
     <div class="workfield flex flex--column flex--fill">
       <AppHeader/>
       <AppStepsBar/>
+      <AppStepHeader/>
     </div>
   </div>
 </template>
@@ -10,9 +11,10 @@
 <script>
 import AppHeader from '@/components/AppHeader'
 import AppStepsBar from '@/components/AppStepsBar'
+import AppStepHeader from '@/components/AppStepHeader'
 
 export default {
-  components: { AppStepsBar, AppHeader }
+  components: { AppStepHeader, AppStepsBar, AppHeader }
 }
 </script>
 
