@@ -23,12 +23,12 @@ div {
   width: 100%;
   height: 100%;
   & > #equipment {
-    top: 36px;
+    top: 8px;
     left: 134px;
     position: absolute;
   }
   & > #drop {
-    top: 225px;
+    top: 199px;
     left: 426px;
     position: absolute;
   }

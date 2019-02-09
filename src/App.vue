@@ -7,6 +7,7 @@
       <InteractiveField>
         <BoilerEquipment/>
         <Stove/>
+        <Thermometer/>
       </InteractiveField>
     </div>
   </div>
@@ -19,9 +20,10 @@ import AppStepHeader from '@/components/AppStepHeader'
 import InteractiveField from '@/components/InteractiveField'
 import BoilerEquipment from '@/components/BoilerEquipment'
 import Stove from '@/components/Stove'
+import Thermometer from '@/components/Thermometer'
 
 export default {
-  components: { Stove, BoilerEquipment, InteractiveField, AppStepHeader, AppStepsBar, AppHeader }
+  components: { Thermometer, Stove, BoilerEquipment, InteractiveField, AppStepHeader, AppStepsBar, AppHeader }
 }
 </script>
 

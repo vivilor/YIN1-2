@@ -59,7 +59,7 @@ $side-padding: 8px;
 
 div#stove {
   position: absolute;
-  top: 285px;
+  top: 259px;
   left: 105px;
   width: $stove-width;
   & > div {

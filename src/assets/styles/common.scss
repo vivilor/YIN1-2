@@ -24,6 +24,9 @@ body {
 
 .flex {
   display: flex;
+  &--reverse {
+    flex-direction: row-reverse;
+  }
   &--column {
     flex-direction: column;
   }

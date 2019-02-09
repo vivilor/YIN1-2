@@ -33,5 +33,7 @@ h2 {
   margin-top: 9px;
   font: 22px/28px 'Conqueror Sans', sans-serif;
   color: $text-clr;
+  min-height: 56px;
+  max-height: 56px;
 }
 </style>
