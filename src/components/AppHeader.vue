@@ -12,7 +12,7 @@ export default {
 @import "~@/assets/styles/common";
 
 h1 {
-  font: 23px/32pt "Conqueror Sans", sans-serif;
+  font: 28px/32pt "Conqueror Sans", sans-serif;
   font-weight: 800;
   color: $text-clr;
 }
