@@ -33,9 +33,10 @@ export default {
 
 $border-radius: 18px;
 $border-width: 1px;
-$circle-diameter: $border-radius * 2 - $border-width * 2;
+$circle-diameter: $border-radius * 2;
 
 ul {
+  margin-top: 7px;
   & > li {
     width: $circle-diameter;
     height: $circle-diameter;
