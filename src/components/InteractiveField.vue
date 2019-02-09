@@ -12,7 +12,8 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  flex: initial;
+  flex: auto;
   width: inherit;
+  position: relative;
 }
 </style>

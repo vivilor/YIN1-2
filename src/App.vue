@@ -4,6 +4,9 @@
       <AppHeader/>
       <AppStepsBar/>
       <AppStepHeader/>
+      <InteractiveField>
+        <BoilerEquipment/>
+      </InteractiveField>
     </div>
   </div>
 </template>
@@ -12,9 +15,11 @@
 import AppHeader from '@/components/AppHeader'
 import AppStepsBar from '@/components/AppStepsBar'
 import AppStepHeader from '@/components/AppStepHeader'
+import InteractiveField from '@/components/InteractiveField'
+import BoilerEquipment from '@/components/BoilerEquipment'
 
 export default {
-  components: { AppStepHeader, AppStepsBar, AppHeader }
+  components: { BoilerEquipment, InteractiveField, AppStepHeader, AppStepsBar, AppHeader }
 }
 </script>
 
