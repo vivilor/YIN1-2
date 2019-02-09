@@ -1,0 +1,200 @@
+{
+  "header": "Разделение нефти на фракции",
+  "steps": [
+    {
+      "header": "Выделите бензиновую фракцию.",
+      "cards": [
+        "start_info",
+        "instruction_pop_up"
+      ],
+      "modals": [
+        "experiment_success",
+        "confirm_restart",
+        "stove_is_off",
+        "stove_is_on",
+        "not_enough",
+        "flask_overheated"
+      ],
+      "buttons": [
+        "validate"
+      ]
+    },
+    {
+      "header": [
+        "Поэкспериментируйте с установкой",
+        "и попробуйте получить все возможные фракции."
+      ]
+    },
+    {
+      "header": "Теперь попробуйте выделить смесь бензиновой и дизельной фракций."
+    }
+  ],
+  "cards": {
+    "start_info": {
+      "content": [
+        "Бензиновая фракция испаряется из нефти при температуре не более 140°C.",
+        "Чтобы выделить бензиновую фракцию, включите плитку и прогрейте нефть до необходимой температуры."
+      ],
+      "style": {
+        "bottom": "92px",
+        "right": "27px",
+        "width": "268px",
+        "height": "128px"
+      }
+    },
+    "fractions_info": {
+      "content": [
+        "бензиновая фракция",
+        {
+          "text": "до 140 °С",
+          "highlight": true
+        },
+        "керосиновая фракция",
+        {
+          "text": "180-220 °С",
+          "highlight": true
+        },
+        "дизельная фракция",
+        {
+          "text": "220-350 °С",
+          "highlight": true
+        }
+      ],
+      "style": {
+        "width": "90px",
+        "height": "260px",
+        "right": "27px",
+        "bottom": "114px"
+      }
+    }
+  },
+  "notifications": {
+    "move_flask_inactive": {
+      "highlight": true,
+      "content": [
+        "Перенесите колбу с керосином на своё место"
+      ],
+      "style": {
+        "text-align": "center",
+        "height": "55px",
+        "width": "200px",
+        "bottom": "10px",
+        "left": "25px",
+        "padding": "9px 5px 9px 5px"
+      }
+    },
+    "two_fractions_one_flask": {
+      "highlight": true,
+      "content": [
+        "Вы собрали в одной колбе две фракции.",
+        "Придется начать шаг заново."
+      ]
+    },
+    "not_enough": {
+      "highlight": true,
+      "content": [
+        "Вы собрали недостаточное количество нужной фракции.",
+        "Продолжайте нагревать колбу."
+      ]
+    },
+    "move_flask": {
+      "highlight": true,
+      "content": [
+        "Перенесите колбу с керосином на свое место"
+      ]
+    }
+  },
+  "modals": {
+    "confirm_restart": {
+      "text": [
+        "Начать задание заново?",
+        "Весь прогресс будет потерян!"
+      ],
+      "buttons": [
+        "yes",
+        "no"
+      ]
+    },
+    "experiment_warning": {
+      "text": [
+        "Что-то не так.",
+        "Попробуйте продолжить эксперимент"
+      ],
+      "buttons": [
+        "continue"
+      ]
+    },
+    "experiment_error": {
+      "text": [
+        "Что-то не так.",
+        "Попробуйте еще раз"
+      ],
+      "buttons": [
+        "restart"
+      ]
+    },
+    "stove_is_off": {
+      "text": [
+        "Вы не выделили нужную фракцию.",
+        "Попробуйте включить плитку и нагреть нефть"
+      ],
+      "buttons": [
+        "ok"
+      ]
+    },
+    "not_enough": {
+      "text": [
+        "Вы собрали недостаточное количество нужной фракции."
+      ],
+      "buttons": [
+        "ok"
+      ]
+    },
+    "flask_overheated": {
+      "text": [
+        "Вы перегрели колбу!"
+      ],
+      "buttons": [
+        "restart"
+      ]
+    },
+    "stove_is_on": {
+      "text": [
+        "Вы забыли выключить плитку!"
+      ],
+      "buttons": [
+        "ok"
+      ]
+    },
+    "experiment_success": {
+      "text": [
+        "Все правильно!"
+      ],
+      "buttons": [
+        "ok"
+      ]
+    }
+  },
+  "buttons": {
+    "restart": {
+      "text": "Начать шаг заново",
+      "type": "danger"
+    },
+    "continue": {
+      "text": "Продолжить"
+    },
+    "yes": {
+      "text": "ДА"
+    },
+    "no": {
+      "text": "НЕТ",
+      "type": "danger"
+    },
+    "ok": {
+      "text": "OK"
+    },
+    "validate": {
+      "text": "Проверить"
+    }
+  }
+}
