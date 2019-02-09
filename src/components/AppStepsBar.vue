@@ -4,12 +4,12 @@
     class="flex flex--center-vh"
     v-for="stepIndex in stepsTotal"
     :key="stepIndex">
-    <span
-      v-if="stepIndex < currentStep"
-      v-text="i"/>
     <img
-      v-else
+      v-if="stepIndex < currentStep + 1"
       src="../assets/img/Done.png">
+    <span
+      v-else
+      v-text="stepIndex"/>
   </li>
 </ul>
 </template>
@@ -46,7 +46,7 @@ ul {
     }
     & > span {
       color: $main-clr;
-      font: bold 16pt/($circle-diameter) 'Open Sans', sans-serif;
+      font: bold 16px/#{$circle-diameter} 'Open Sans', sans-serif;
     }
   }
 }
