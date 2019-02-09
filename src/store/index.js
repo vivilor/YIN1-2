@@ -2,12 +2,14 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import steps from './steps'
+import equipment from './equipment'
 
 Vue.use(Vuex)
 
 const store = {
   modules: {
-    steps
+    steps,
+    equipment
   }
 }
 

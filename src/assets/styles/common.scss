@@ -18,16 +18,29 @@ body {
   overflow: hidden
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .flex {
   display: flex;
+  &--reverse {
+    flex-direction: row-reverse;
+  }
   &--column {
     flex-direction: column;
   }
   &--fill {
     flex: auto;
   }
+  &--center-v {
+    align-items: center;
+  }
   &--center-vh {
     justify-content: center;
     align-items: center;
+  }
+  &--spaced {
+    justify-content: space-between;
   }
 }
